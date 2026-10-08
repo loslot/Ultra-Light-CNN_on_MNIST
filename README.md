@@ -62,8 +62,3 @@ Overall:
 - `graph_summary_comparison.png`: accuracy and loss for all runs
 - `results.csv`: summary table
 - `ultra_light_cnn_size*_ep*.pt`: the best trained model
-
-## Notes
-
-- `NOISY_VALIDATION = True` also adds the 15% noise to the validation images, which gives smoother loss graphs. It does not change the model or the test results. Set it to `False` to keep the validation images clean (noise on the test set only, as on the slide).
-- The model is trained on noisy images, so its accuracy on clean images is a bit lower than on noisy ones.

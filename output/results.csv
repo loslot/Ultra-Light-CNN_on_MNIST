@@ -1,0 +1,5 @@
+Model,Size,Epochs,Params,Train acc,Val acc,Test acc (clean),Test acc (15% noise),Test acc (15% noise + TTA),Time (s)
+Ultra-Light CNN,2500,50,23098,0.9743,0.976,0.952,0.982,0.988,39.3
+Ultra-Light CNN,2500,100,23098,0.984,0.98,0.962,0.984,0.988,71.5
+Ultra-Light CNN,5000,50,23098,0.9729,0.984,0.977,0.987,0.988,69.5
+Ultra-Light CNN,5000,100,23098,0.9869,0.98,0.982,0.986,0.989,116.8
